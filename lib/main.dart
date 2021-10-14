@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget{
             ),
             child: Row(  //виджет row
               mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
+              children: const <Widget>[
                 Icon(Icons.adjust, size: 50, color: Colors.red),
                 Icon(Icons.adjust, size: 50, color: Colors.green),
                 Icon(Icons.adjust, size: 50, color: Colors.blue),
